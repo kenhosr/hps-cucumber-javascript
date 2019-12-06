@@ -10,7 +10,7 @@ Feature: Beans
   @priority-high
   Scenario: Message "Fill beans" is displayed after 38 coffees are taken
     When I take "38" coffees
-    Then message "hello" should be displayed
+    Then message "Fill beans" should be displayed
 
   @priority-low
   Scenario: It is possible to take 40 coffees before there is really no more beans
