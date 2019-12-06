@@ -1,6 +1,8 @@
 # hps-cucumber-javascript
 [![Build Status](https://travis-ci.org/hiptest/hps-cucumber-javascript.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-javascript)
 
+[![Hiptest Status](https://app.hiptest.com/badges/folder_snapshot/3179230)](https://app.hiptest.com/projects/153344/test-runs/329847/folder-snapshots/3179230)
+
 Hiptest publisher samples with Cucumber/Javascript
 
 In this repository you'll find tests generated in Cucumber/Javascript format from [Hiptest](https://hiptest.com), using [Hiptest publisher](https://github.com/hiptest/hiptest-publisher).
