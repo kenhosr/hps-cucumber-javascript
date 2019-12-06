@@ -8,13 +8,13 @@ before_install:
   - rvm install 2.6
   - rvm use 2.6
   - gem install hiptest-publisher
-  - "hiptest-publisher -c cucumber-js.conf --only=features,step_definitions --test-run-id=329742"
+  - "hiptest-publisher -c cucumber-js.conf --only=features,step_definitions --test-run-id=329847"
   - npm install
 
 script:
   - node_modules/.bin/cucumber-js --format=json > cucumber_report.json
 
 after_script:
-  - hiptest-publisher -c cucumber-js.conf --push=cucumber_report.json --test-run-id=329742
+  - hiptest-publisher -c cucumber-js.conf --push=cucumber_report.json --test-run-id=329847
 
 
